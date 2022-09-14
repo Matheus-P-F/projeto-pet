@@ -79,9 +79,7 @@ function Home() {
 
               </select>
             </div>
-
-
-
+            
             <div className={styles.campoForm}>
               <label htmlFor="raca">Da raça:</label><br />
               <input type="text" id="raca" onChange={onChange} className={styles.campoFormText} placeholder='SRD' required/>
@@ -138,6 +136,7 @@ function Home() {
               <td className={styles.respostaDadosTamanho}>
                 {element.select}
               </td>
+
               <td className={styles.respostaDadosTamanho}>
                 {element.raca}
               </td>
